@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './styles/ui.css';
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'DM Sans', sans-serif; background: #F5F3EE; color: #0A1628; }
+input::placeholder { color: #bbb; }
+input, button { font-family: 'DM Sans', sans-serif; }
+
